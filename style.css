@@ -1,0 +1,459 @@
+/* this styles every page */
+html{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #eee;
+}
+ .wrapper{
+  margin: 0 auto 0 60px;
+  width: 1000px;
+  height: fit-content;
+   background-color: #eee; 
+} 
+
+.logo img{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 10%;
+  height: 10%;
+}
+
+.img-art:hover{
+  background-size: 100%
+}
+
+nav{
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  
+}
+
+ul{
+ margin-left: 0px; 
+}
+
+ul li{
+ list-style: none;  
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+
+ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  font-family: arial;
+  color: #eee;
+  padding: 0 20px;
+  display: block;
+  
+}
+
+ul li a:hover{
+  color: darkgreen;
+
+}
+/* begin parralax styling */
+.wrapper{
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+}
+.topBG{
+  background-image: url("summitfield.jpeg");
+  min-height: 400px;
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottomBG{
+  background-image: url("summitfield.jpeg");
+  min-height: 400px;
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.scrolltext {
+font-size: 100px;
+background-color: rgba(120,200,100,0.1);
+  
+}
+.scrolltext{
+  background-color: black;
+  font-size: 100px;
+  color: white;
+  padding-left: 400px;
+  padding-top: 5px;
+}
+/* end parralax styling */
+/* this styles my homepage */
+.paragraph{
+  font-size: 80px;
+  color: black;
+}
+.bottomtext{
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  font-size: 35px;
+  
+}
+.headingtext{
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  padding-top: 50px;
+}
+.nav-logo{
+  position: absolute;
+  height: auto;
+  right: 0px;
+  width: 90px;
+  padding-top: 5px;
+  padding-right: 10px;
+     
+}
+
+
+/* this styles my Sports page */
+.Sports{
+  margin-left: 100px;
+  background-size: 10px;
+  height: 850px;
+  width: 1200px;
+  position: center;
+  margin-top: 75px;
+}
+.sp{
+  margin-top: 50px; 
+  font-size: 50px;
+  font-family: Georgia, serif;
+  color: darkgreen;
+  margin-left: 10px;
+}
+/* sports text starts */
+/* paragraph section */
+.p1{
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  color: black;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+/* heading section */
+.h1{
+  margin-top: 50px;
+  font-size: 50px;
+  font-family: Georgia, serif;
+  color: darkgreen;
+  margin-left: 10px;
+}
+/* this is the end of my sports text */
+/* this is styles my contact us page */
+.CONTACT{
+  font-size: 50px;
+  padding-left: 550px;
+  padding-top: 100px;
+  color: white;
+  background-color: #50514f;
+}
+ .topBGc{
+  background-image: url("summit\ high\ school\ front.png");
+  min-height: 400px;
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+.bottomBGc{
+  background-image: url("summit\ high\ school\ front.png");
+  min-height: 400px;
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.scrolltextc{
+  background-color: black;
+  font-size: 100px;
+  color: white;
+  padding-left: 435px;
+  padding-top: 5px;
+}
+.school{
+  padding-top: 20px;
+  font-size: 45px;
+  color: darkgreen;
+}
+/* contact links */
+/* Error 404 page start */
+.errorpage{
+  font-size: 80px;
+}
+.errorp{
+  font-size: 65px;
+}
+/* Error 404 page end */
+/* this styles my Our house page */
+.topBGA{
+  background-image: url("IMG_3724.jpeg");
+ min-height: 400px;
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottomBGA{
+background-image: url("IMG_3724.jpeg");
+  min-height: 400px;
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.scrolltexta{
+  background-color: black;
+  font-size: 100px;
+  color: white;
+  padding-left: 430px;
+  padding-top: 5px;
+}
+.Welcome{
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  padding-top: 50px;
+   padding-left: 10px;
+}
+.Summit{
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  padding-top: 50px;
+   padding-left: 10px;
+}
+.staff{
+  padding-top: 50px;
+  font-size: 50px;
+  font-family: Georgia, serif;
+  color: white;
+  padding-left: 10px;
+  background-color: black;
+   
+}
+.team{
+  background-color: black;
+  font-size: 50px;
+  padding-top: 30px;
+   padding-left: 0px;
+  color: white;
+}
+.Bell{
+  background-color: black;
+  font-size: 50px;
+  padding-top: 30px;
+  color: white;
+}
+.bellp{
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  padding-top: 20px;
+   padding-left: 10px;
+}
+/* this styles my SHS Ops page */
+.heading{
+  margin-top: 50px;
+  font-size: 50px;
+  font-family: Georgia, serif;
+  color: darkgreen;
+  margin-left: 10px;
+}
+.admins{
+  margin-left: 100px;
+  background-size: 10px;
+  height: 850px;
+  width: 1200px;
+  position: center;
+  margin-top: 75px;
+}
+.dirrectors{
+  margin-left: 100px;
+  background-size: 10px;
+  height: 850px;
+  width: 1200px;
+  position: center;
+  margin-top: 75px;
+}
+.adminp{
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  color: black;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.dirrectorp{
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  color: black;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.security{
+  margin-left: 100px;
+  background-size: 10px;
+  height: 850px;
+  width: 1200px;
+  position: center;
+  margin-top: 75px;
+}
+.securityp{
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  color: black;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.office{
+     margin-left: 100px;
+     background-size: 10px;
+     height: 850px;
+     width: 1200px;
+     position: center;
+     margin-top: 75px;
+}
+.officep{
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  color: black;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+/* this styles my academics page */
+.visual{
+  margin-left: 100px;
+   background-size: 10px;
+   height: 850px;
+   width: 1200px;
+   position: center;
+   margin-top: 75px;
+}
+.visualp{
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  color: black;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.visual1{
+  padding-top: 20px;
+  font-size: 45px;
+  color: darkgreen;
+}
+.art{
+  margin-left: 100px;
+   background-size: 10px;
+   height: 850px;
+   width: 1200px;
+   position: center;
+   margin-top: 75px;
+}
+.math{
+  margin-left: 100px;
+   background-size: 10px;
+   height: 850px;
+   width: 1200px;
+   position: center;
+   margin-top: 75px;
+}  
+.sciences{
+  margin-left: 100px;
+   background-size: 10px;
+   height: 850px;
+   width: 1200px;
+   position: center;
+   margin-top: 75px;
+}
+.social{
+  margin-left: 100px;
+   background-size: 10px;
+   height: 850px;
+   width: 1200px;
+   position: center;
+   margin-top: 75px;
+}
+.Health{
+  margin-left: 100px;
+   background-size: 10px;
+   height: 850px;
+   width: 1200px;
+   position: center;
+   margin-top: 75px;
+}
+.World{
+  margin-left: 100px;
+   background-size: 10px;
+   height: 850px;
+   width: 1200px;
+   position: center;
+   margin-top: 75px;
+}
+.Special{
+  margin-left: 100px;
+   background-size: 10px;
+   height: 850px;
+   width: 1200px;
+   position: center;
+   margin-top: 75px;
+}
+/* this styles my counseling page */
+.counsel{
+  margin-left: 100px;
+   background-size: 10px;
+   height: 850px;
+   width: 1200px;
+   position: center;
+   margin-top: 75px;
+}
+.counselp{ 
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  color: black;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.SHSc{
+  padding-left: 200px;
+}
+.Coun{
+  padding-top: 50px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  color: white;
+  padding-left: 10px;
+}
